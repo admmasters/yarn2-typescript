@@ -1,0 +1,19 @@
+{
+  "name": "yarn2-typescript",
+  "scripts": {
+    "start": "yarn node dist/index.js",
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "latest",
+    "@yarnpkg/pnpify": "2.0.0-rc.16",
+    "lodash": "^4.17.15",
+    "typescript": "3.7.5"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}
