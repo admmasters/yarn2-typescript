@@ -7,7 +7,7 @@
   "dependencies": {
     "@types/lodash": "latest",
     "@yarnpkg/pnpify": "2.0.0-rc.16",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "typescript": "3.7.5"
   },
   "peerDependencies": {
